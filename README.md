@@ -1,10 +1,8 @@
-# SkinCancerNet
+# CancerNet-SCa
 
-**Note: The SkinCancerNet models provided here are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended as production-ready models (not meant for direct clinical diagnosis), and we are working continuously to improve them as new data becomes available. Please do not use SkinCancerNet for self-diagnosis and seek help from your local health authorities.**
+**Note: The CancerNet-SCa models provided here are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended as production-ready models (not meant for direct clinical diagnosis), and we are working continuously to improve them as new data becomes available. Please do not use SkinCancerNet for self-diagnosis and seek help from your local health authorities.**
 
-**SkinCancerNet is a part of the [COVID-Net initiative](https://github.com/lindawangg/COVID-Net).**
-
-**Many thanks to the Stoneman family for their gracious support, much of which made this research possible.**
+**CancerNet-SCa is part of the CancerNet initiatives, a parallel initiative to the [COVID-Net initiative](https://github.com/lindawangg/COVID-Net).**
 
 If you are a researcher or healthcare worker and you would like access to the **GSInquire tool to use to interpret SkinCancerNet results** on your data or existing data, please reach out to a28wong@uwaterloo.ca or alex@darwinai.ca
 
@@ -21,9 +19,13 @@ If there are any technical questions after the README, FAQ, and past/current iss
 	* Alexander Wong
 * Vision and Image Processing Research Group, University of Waterloo, Canada
 	* James Lee
+* DarwinAI Corp., Canada
+	* Mahmoud Famouri
+* University of Waterloo, Canada
+	* Maya Pavlova
 
 ## Table of Contents
-1. [Requirements](#requirements) to install, train, and infer SkinCancerNet on your system.
+1. [Requirements](#requirements) to install, train, and infer CancerNet-SCa on your system.
 
 ## Requirements
 
