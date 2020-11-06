@@ -4,7 +4,7 @@
 
 **CancerNet-SCa is part of the CancerNet initiatives, a parallel initiative to the [COVID-Net initiative](https://github.com/lindawangg/COVID-Net).**
 
-If you are a researcher or healthcare worker and you would like access to the **GSInquire tool to use to interpret SkinCancerNet results** on your data or existing data, please reach out to a28wong@uwaterloo.ca or alex@darwinai.ca
+If you are a researcher or healthcare worker and you would like access to the **GSInquire tool to use to interpret CancerNet-SCa results** on your data or existing data, please reach out to a28wong@uwaterloo.ca or alex@darwinai.ca
 
 Our desire is to encourage broad adoption and contribution to this project. Accordingly this project has been licensed under the GNU Affero General Public License 3.0. Please see [license file](LICENSE.md) for terms.
 
