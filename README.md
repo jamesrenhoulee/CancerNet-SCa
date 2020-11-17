@@ -45,7 +45,7 @@ Additional requirements to generate dataset:
 
 ## Results
 
-These are the final results for the CancerNet-SCa models on 222 malignant test images.
+These are the final results for the CancerNet-SCa models on 221 malignant test images.
 
 ### CancerNet-SCa-A on ISIC test set
 <div class="tg-wrap"><table class="tg">

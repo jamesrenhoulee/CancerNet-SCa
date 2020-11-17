@@ -12,6 +12,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 def process_image_file(filepath, size):
     img = cv2.imread(filepath)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = cv2.resize(img, size)
     return img
 

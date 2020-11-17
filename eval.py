@@ -20,7 +20,7 @@ def eval(sess, graph, testfile, testfolder, input_tensor, output_tensor, input_s
         x = process_image_file(os.path.join(testfolder, line[0]), (input_size, input_size))
         x = x.astype('float32') / 255.0
         y_test.append(int(line[1]))
-        pred.append(np.array(sess.run(pred_tensor, feed_dict={image_tensor: np.expand_dims(x, axis=0)})).argmax(axis=1))
+        pred.extend(np.array(sess.run(pred_tensor, feed_dict={image_tensor: np.expand_dims(x, axis=0)})).argmax(axis=1))
     y_test = np.array(y_test)
     pred = np.array(pred)
 
@@ -34,10 +34,10 @@ def eval(sess, graph, testfile, testfolder, input_tensor, output_tensor, input_s
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='COVID-Net Evaluation')
-    parser.add_argument('--weightspath', default='models/CancerNet-SCa-A', type=str, help='Path to output folder')
+    parser.add_argument('--weightspath', default='models/CancerNet-SCa-C', type=str, help='Path to output folder')
     parser.add_argument('--metaname', default='model.meta', type=str, help='Name of ckpt meta file')
-    parser.add_argument('--ckptname', default='model-0', type=str, help='Name of model ckpts')
-    parser.add_argument('--testfile', default='test_images.csv', type=str, help='Name of testfile')
+    parser.add_argument('--ckptname', default='model-6930', type=str, help='Name of model ckpts')
+    parser.add_argument('--testfile', default='test_split2.csv', type=str, help='Name of testfile')
     parser.add_argument('--testfolder', default='data/test', type=str, help='Folder where test data is located')
     parser.add_argument('--in_tensorname', default='input_1:0', type=str, help='Name of input tensor to graph')
     parser.add_argument('--out_tensorname', default='probs/Softmax:0', type=str, help='Name of output tensor from graph')
