@@ -42,3 +42,94 @@ Additional requirements to generate dataset:
 
 * Pandas
 * Jupyter
+
+## Results
+
+These are the final results for the CancerNet-SCa models.
+
+### CancerNet-SCa-A on ISIC test set
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-7btt" colspan="2">Sensitivity (%)</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt">Benign</td>
+    <td class="tg-7btt">Malignant</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table></div>
+
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-7btt" colspan="2">Positive Predictive Value (%)</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt">Benign</td>
+    <td class="tg-7btt">Malignant</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table></div>
+
+### CancerNet-SCa-B on ISIC test set
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-7btt" colspan="2">Sensitivity (%)</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt">Benign</td>
+    <td class="tg-7btt">Malignant</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table></div>
+
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-7btt" colspan="2">Positive Predictive Value (%)</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt">Benign</td>
+    <td class="tg-7btt">Malignant</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table></div>
+
+### CancerNet-SCa-C on ISIC test set
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-7btt" colspan="2">Sensitivity (%)</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt">Benign</td>
+    <td class="tg-7btt">Malignant</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table></div>
+
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-7btt" colspan="2">Positive Predictive Value (%)</th>
+  </tr>
+  <tr>
+    <td class="tg-7btt">Benign</td>
+    <td class="tg-7btt">Malignant</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table></div>
