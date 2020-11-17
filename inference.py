@@ -6,7 +6,7 @@ import cv2
 from data import process_image_file
 
 parser = argparse.ArgumentParser(description='CancerNet-SCa Inference')
-parser.add_argument('--weightspath', default='models/CancerNet-SCa', type=str, help='Path to output folder')
+parser.add_argument('--weightspath', default='models/CancerNet-SCa-A', type=str, help='Path to output folder')
 parser.add_argument('--metaname', default='model.meta', type=str, help='Name of ckpt meta file')
 parser.add_argument('--ckptname', default='model-0', type=str, help='Name of model ckpts')
 parser.add_argument('--imagepath', default='assets/predict_this.jpeg', type=str, help='Full path to image to be inferenced')
