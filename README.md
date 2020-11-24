@@ -26,7 +26,7 @@ If there are any technical questions after the README, FAQ, and past/current iss
 1. Main ISIC Archive: https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main
 2. CancerNet-SCa models: https://github.com/jamesrenhoulee/CancerNet-SCa/docs/models.md
 
-## Core SkinCancerNet Team
+## Core CancerNet-SCa Team
 * DarwinAI Corp., Canada and Vision and Image Processing Research Group, University of Waterloo, Canada
 	* Alexander Wong
 * Vision and Image Processing Research Group, University of Waterloo, Canada
