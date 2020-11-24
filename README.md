@@ -20,6 +20,7 @@ Our desire is to encourage broad adoption and contribution to this project. Acco
 
 If there are any technical questions after the README, FAQ, and past/current issues have been read, please post an issue or contact:
 * jamesrenhoulee@gmail.com
+* mspavlova@uwaterloo.ca
 
 ## Quick Links
 1. Main ISIC Archive: https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main
