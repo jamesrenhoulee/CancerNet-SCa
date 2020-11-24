@@ -49,8 +49,8 @@ class ISIC_Dataset():
         self.datasets = datasets
         self.num_benign = len(self.datasets['benign'])
         self.num_malignant = len(self.datasets['malignant'])
-        print('Initial length of benign samples: ', self.num_benign)
-        print('Initial length of malignant samples: ', self.num_malignant)
+        print('Number of benign samples: ', self.num_benign)
+        print('Number of malignant samples: ', self.num_malignant)
 
     def parse_function_test(self, filename, label):
         img_decoded = tf.image.decode_jpeg(tf.io.read_file(self.datadir + filename), channels=self.num_channels)

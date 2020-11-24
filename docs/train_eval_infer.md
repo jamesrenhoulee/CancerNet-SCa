@@ -9,21 +9,6 @@ If using the TF checkpoints, here are some useful tensors:
 * loss tensor: `loss/mul:0`
 * training placeholder tensor: `keras_learning_phase:0` 
 
-## Steps for training
-TF training script from a pretrained model:
-1. We provide you with the tensorflow training script, [train_tf.py](../train_tf.py)
-2. Locate the tensorflow checkpoint files (location of pretrained model)
-3. To train from a pretrained model:
-```
-python train_tf.py \
-    --weightspath models/CancerNet-SCa-A \
-    --metaname model.meta \
-    --ckptname model-0 \
-    --trainfile train_images.csv \
-    --testfile val_images.csv \
-```
-4. For more options and information, `python train_tf.py --help`
-
 ## Steps for evaluation
 
 1. We provide you with the tensorflow evaluation script, [eval.py](../eval.py)
@@ -48,6 +33,6 @@ python inference.py \
     --weightspath models/CancerNet-SCa-A \
     --metaname model.meta \
     --ckptname model-0 \
-    --imagepath assets/predict_this.jpeg
+    --imagepath assets/ex_malignant.jpg
 ```
 4. For more options and information, `python inference.py --help`

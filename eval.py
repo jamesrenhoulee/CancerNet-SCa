@@ -56,8 +56,6 @@ if __name__ == '__main__':
     test_inputs = test_dataset_iter.get_next()
     num_test_samples = isic_dataset.len_data
     
-    print('was able to make the dataset')
-
     sess = tf.Session()
     sess.run([test_dataset_iter.initializer, tf.tables_initializer()])
     tf.get_default_graph()
