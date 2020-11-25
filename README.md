@@ -24,7 +24,7 @@ If there are any technical questions after the README, FAQ, and past/current iss
 
 ## Quick Links
 1. Main ISIC Archive: https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main
-2. CancerNet-SCa models: https://github.com/jamesrenhoulee/CancerNet-SCa/docs/models.md
+2. CancerNet-SCa models: https://github.com/jamesrenhoulee/CancerNet-SCa/blob/main/docs/models.md
 
 ## Core CancerNet-SCa Team
 * DarwinAI Corp., Canada and Vision and Image Processing Research Group, University of Waterloo, Canada
