@@ -29,9 +29,8 @@ If there are any technical questions after the README, FAQ, and past/current iss
 ## Core CancerNet-SCa Team
 * DarwinAI Corp., Canada and Vision and Image Processing Research Group, University of Waterloo, Canada
 	* Alexander Wong
-* Vision and Image Processing Research Group, University of Waterloo, Canada
-	* James Lee
 * DarwinAI Corp., Canada
+	* James Lee
 	* Mahmoud Famouri
 * University of Waterloo, Canada
 	* Maya Pavlova
