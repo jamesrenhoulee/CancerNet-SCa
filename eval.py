@@ -34,7 +34,7 @@ def eval(sess, graph, eval_iters, input_tensor, output_tensor, training_placehol
     print('PPV Benign: {0:.3f}, Malignant {1:.3f}'.format(ppvs[0], ppvs[1]))
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='COVID-Net Evaluation')
+    parser = argparse.ArgumentParser(description='CancerNet-SCa Evaluation')
     parser.add_argument('--weightspath', default='models/CancerNet-SCa-A', type=str, help='Path to output folder')
     parser.add_argument('--metaname', default='model.meta', type=str, help='Name of ckpt meta file')
     parser.add_argument('--ckptname', default='model-0', type=str, help='Name of model ckpts')
