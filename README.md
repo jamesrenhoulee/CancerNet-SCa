@@ -1,5 +1,10 @@
 # CancerNet-SCa Open Source Initiative
 
+<p align="center">
+	<img src="assets/cancernet_logo.png" alt="CancerNet Logo" width="25%" height="25%">
+	<br>
+</p>
+
 **Note: The CancerNet-SCa models provided here are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended as production-ready models (not meant for direct clinical diagnosis), and we are working continuously to improve them as new data becomes available. Please do not use CancerNet-SCa for self-diagnosis and seek help from your local health authorities.**
 
 **CancerNet-SCa is part of the CancerNet initiatives, a parallel initiative to the [COVID-Net initiative](https://github.com/lindawangg/COVID-Net).**
